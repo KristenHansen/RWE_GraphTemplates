@@ -35,7 +35,7 @@ The parameters that are used are in relation to the Panel, legend and the titles
 
 'legend_location' - Default 'bottom', other options include all legened location options including but not limited to 'topright', 'top', 'bottomleft' etc. This will be highly custom depending on the plot you are creating. 
 
-##Text/Title parameters 
+### Text/Title parameters 
 
 'font' - Default 'Times', ggplot2 contains many fonts the following are your options, however we will caution the use of fonts other than the ggplot2 default 'sans' and 'Times' or 'Helvetica':
 Short,Canonical
@@ -67,7 +67,7 @@ URWTimes,NimbusRom
 'map_plot' - Defaults to FALSE, if you are creating a map, axes labels are unneeded and make plotting look busy. For this reason if you change this parameter to TRUE, then all axes labels are removed
 
 
-##Using the theme source code 
+## Using the theme source code 
 
 When you are ready to set your panel theme for a project you may source the Template Maker first 
 ```{r}
@@ -184,8 +184,8 @@ ponyo2 = paletteer_d(`"ghibli::PonyoDark"`, n = 7)
 show_col(ponyo2)
 passion = paletteer_d(`"ggprism::purple_passion"`, n = 9)
 show_col(passion)
-
-
+beyonce = paletteer_d(`"beyonce::X8"`, n = 6)
+show_col(beyonce)
 ```
 
 
